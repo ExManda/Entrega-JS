@@ -1,13 +1,4 @@
-/* funcion para loguear
-tres intentos,
-usuario y contrasaeña,
-bucles,
-condicionales,
-operadores logicos,
-alert,
-prompt
 
-*/
 
 
 
