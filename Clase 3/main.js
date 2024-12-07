@@ -67,7 +67,7 @@ EJEMPLO
 login - 3 intentos
 */
 
-/*
+
 let intentos = 3
 let identificar = true
 
