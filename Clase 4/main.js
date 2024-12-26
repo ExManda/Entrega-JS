@@ -69,8 +69,8 @@ calcularPrecioFinal()
 } 
 
 
- let sumar = function (a,b){
-  return a+b
+let sumar = function (a,b){
+return a+b
 }
 
 console.log(funcionFlecha(2,3)) */
@@ -78,17 +78,17 @@ console.log(funcionFlecha(2,3)) */
 
 
 
-function normal (numA, numB){
-    let resultado = numA+numB
+function normal(numA, numB) {
+    let resultado = numA + numB
     console.log(resultado)
 }
 
 
-let funcionAnonima = function(numA,numB){
-    return numA+numB
+let funcionAnonima = function (numA, numB) {
+    return numA + numB
 }
 
 
-let funcionFlecha = (a,b)=>a+b
+let funcionFlecha = (a, b) => a + b
 
 
