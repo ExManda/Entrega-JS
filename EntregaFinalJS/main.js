@@ -158,6 +158,13 @@ function agregarEventoFormulario() {
         const email = document.getElementById("email").value.trim();
         const idDestino = parseInt(document.getElementById("destino").value);
 
+
+        if (nombre === "") {
+            Swal.fire("Error", "Por favor, ingrese su nombre.", "error");
+            return;
+        }
+
+
         if (!email.includes("@")) {
             Swal.fire("Email inválido", `La dirección "${email}" no es válida.`, "error");
             return;
